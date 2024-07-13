@@ -1,12 +1,12 @@
 {
-  "name": "SOMS-PUBLIC",
+  "name": "SOMS-Public",
   "version": "1.0.0",
   "main": "main.js",
-  "description": "Desktop App for Smart Dolil Management System",
+  "description": "Smart Dolil Management System",
   "author": "Registration Department",
   "scripts": {
     "start": "electron .",
-    "publish": "electron-builder -p always"
+    "publish": "electron-builder -p never"
   },
   "devDependencies": {
     "electron": "^22.2.0",
